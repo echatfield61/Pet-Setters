@@ -47,5 +47,8 @@ public class Pet {
     {
         return breed;
     }
-    
+    public String toString()
+    {
+        return ("Name: "+name+" Age: "+age+" Weight: "+weight+" Type: "+type+" Breed: "+breed);
+    }
 }
