@@ -27,9 +27,19 @@ public class Pet {
     {
         return name;
     }
+    public String setName(String n)
+    {
+        name=n;
+        return name;
+    }
 
     public int getAge()
     {
+        return age;
+    }
+    public int setAge(int a)
+    {
+        age=a;
         return age;
     }
 
@@ -37,14 +47,29 @@ public class Pet {
     {
         return weight;
     }
+    public double setWeight(double w)
+    {
+        weight=w;
+        return weight;
+    }
 
     public String getType()
     {
         return type;
     }
+    public String setType(String t)
+    {
+        type=t;
+        return type;
+    }
 
     public String getBreed()
     {
+        return breed;
+    }
+    public String setBreed(String b)
+    {
+        breed=b;
         return breed;
     }
     public String toString()
